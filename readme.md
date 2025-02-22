@@ -21,7 +21,9 @@ This project showcases the application of Reinforcement Learning (RL) to train a
 - **Model Training:**
   - Implemented the PPO algorithm with a Convolutional Neural Network (CnnPolicy) from `stable-baselines3`.
   - Set a learning rate of `2.5e-4` and trained the model over `150,000` timesteps.
-  - Monitored training progress and performance metrics using TensorBoard for real-time visualization.
+  - Monitored training progress and performance metrics using `TensorBoard` for real-time visualization.
+ 
+  ![TensorBoard](./assets/tensorboard.png)
 
 - **Model Evaluation:**
   - Assessed the trained agent's performance using the `evaluate_policy` function, ensuring the agent meets desired proficiency levels.
