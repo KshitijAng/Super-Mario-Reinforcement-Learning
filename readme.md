@@ -30,7 +30,7 @@ This project showcases the application of Reinforcement Learning (RL) to train a
  
 ## Why PPO (Policy-Based Method) over DQN (Value-Based Method)?
 
-* Action Space Handling - DQN works best in discrete action spaces, but Super Mario has complex movement combinations (jumping + running, etc.), making PPO a better choice.
+* Action Space Handling - Deep Q-Network (DQN) works best in discrete action spaces, but Super Mario has complex movement combinations (jumping + running, etc.), making PPO a better choice.
 * Sample Efficiency - DQN is not as efficient as PPO in handling large amounts of data from the environment.
 * Frame Stacking & Temporal Dependency – Mario requires decision-making based on past frames. PPO, being a policy-gradient method, naturally considers sequential dependencies, whereas DQN treats each frame independently.
 * Continuous vs. Discrete - PPO can handle both continuous and discrete action spaces, while DQN is limited to discrete ones.
