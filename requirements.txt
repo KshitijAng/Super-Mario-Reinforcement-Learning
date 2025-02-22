@@ -1,15 +1,8 @@
 # For Python 3.11.8
 
 jupyter
-# stable-baselines3[extra] #--
-# gymnasium #--
-numpy==1.23.5 # 1.21.6
-# setuptools 
-# wheel
+numpy==1.23.5
 tensorboard
-
-# stable-retro
-# gym-retro # in Python 3.7.9
 stable-baselines3==2.5.0 # Or stable-baselines3[extra]
 gym-super-mario-bros==7.4.0
 gym==0.26.2
