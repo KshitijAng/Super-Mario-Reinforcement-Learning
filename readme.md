@@ -1,6 +1,6 @@
 # Super Mario Bros - Reinforcement Learning using PPO 🍄🎮🕹️👾
 
-  ![Demo](./assets/sample.gif)
+  ![Demo](https://raw.githubusercontent.com/KshitijAng/Super-Mario-Reinforcement-Learning/main/assets/sample.gif)
 
 This project showcases the application of Reinforcement Learning (RL) to train an agent to play the classic NES game, Super Mario Bros. Leveraging the [`gym-super-mario-bros`](https://pypi.org/project/gym-super-mario-bros/) environment and the Proximal Policy Optimization (PPO) algorithm from `stable-baselines3`, the agent learns to navigate the game's challenges effectively.
 
